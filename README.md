@@ -10,6 +10,8 @@ After about 3 days of training it learned to memorize the input character sequen
 
 3 levels, 256 units each, vocabulary size 150, batch size 25 (limited by memory)
 
+Did it cheat? By using attention it may have learned to copy input to output using attention mechanism.
+
 Next steps:
 
 1. Modify model to make a prediction model, not autoencoder
